@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8 " />
+        <title>フラッシュ暗算</title>
+        <style>
+            .large{
+                font-size:160px;
+                text-align:center;
+                position:absolute;
+                right:800px;
+            }
+            .largeBox{
+                width:60px;
+                height:30px;
+                font-size:30px;
+            }
+            .yellow{
+                -webkit-text-stroke: 1px #bfbe5d;
+                color: #FFF;
+            }
+        </style>
+    </head>
+    <body>
+        <t class="difficulty"></t>
+        <hr>
+        残り<t class="timer"></t>秒<br>
+        <input type="text" id="answer" /><input type="button" value="確認" onclick="check()" />
+        <div>
+        <t class="large numbers"></t>
+        </div>
+        <script type="text/javascript" src="./../../lib/mathematics.lib.js"></script>
+        <script type="text/javascript" src="main.js"></script>
+    </body>
+</html>
